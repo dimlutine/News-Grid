@@ -50,6 +50,9 @@
     .page-container>*first-child {
         grid-row: 1;
     }
+    .page-container .meta small {
+        max-width: 200px;
+    }
     .l-heading {
         font-size: 2rem;
     }
