@@ -177,6 +177,10 @@ h6 {
     font-size: 3rem;
 }
 
+.s-heading {
+    font-size: 1.5rem;
+}
+
 .list li {
     padding: .5rem 0;
     border-bottom: #555 dotted 1px;
@@ -364,4 +368,23 @@ h6 {
 
 #main-footer .footer-container .list li a:hover {
     color: var(--primary-color);
+}
+
+
+/* About */
+
+#about .container .page-container .card .profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#about .container .page-container .card .profile .profile-container {
+    display: flex;
+    padding: 1rem;
+}
+
+#about .text-container {
+    margin-left: 20px;
 }
