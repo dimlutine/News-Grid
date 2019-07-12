@@ -383,8 +383,11 @@ h6 {
 #about .container .page-container .card .profile .profile-container {
     display: flex;
     padding: 1rem;
+    border-bottom: #555 dotted 1px;
 }
 
 #about .text-container {
     margin-left: 20px;
+    justify-self: center;
+    align-self: center;
 }

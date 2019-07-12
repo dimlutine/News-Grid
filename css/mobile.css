@@ -53,11 +53,28 @@
     .l-heading {
         font-size: 2rem;
     }
+    .profile-pic {
+        max-height: 150px;
+        align-self: center;
+    }
+    .s-heading {
+        font-size: 1.25em;
+    }
+    .text-container p {
+        font-size: .8rem;
+    }
 }
 
 @media(max-width: 360px) {
     #showcase .showcase-container {
         overflow: auto;
+    }
+    .profile-pic {
+        max-width: 100px;
+        align-self: center;
+    }
+    .profile-container {
+        flex-direction: column;
     }
 }
 
