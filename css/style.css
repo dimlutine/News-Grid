@@ -215,7 +215,7 @@ h6 {
 }
 
 #main-nav .logo {
-    width: 280px;
+    width: 180px;
 }
 
 #main-nav ul {
@@ -326,8 +326,8 @@ h6 {
     color: #fff;
 }
 
-#main-footer img {
-    width: 100%;
+#main-footer .logo {
+    width: 180px;
 }
 
 #main-footer a {
